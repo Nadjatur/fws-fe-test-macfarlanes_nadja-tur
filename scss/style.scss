@@ -1,4 +1,5 @@
 @import "vars";
+@import 'hamburger';
 @import 'mixins';
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
@@ -101,3 +102,6 @@ outline: none;}
 #input_search{padding: 0;border: none;color: $white;background-color:$black;}
 
 .fa2{color: $white;}
+
+
+

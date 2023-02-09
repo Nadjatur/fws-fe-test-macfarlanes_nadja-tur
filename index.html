@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/slick-theme.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-   
+
     <script
       src="https://kit.fontawesome.com/5e76715b5e.js"
       crossorigin="anonymous"
@@ -21,11 +21,14 @@
         <div class="menu_part1">
           <i class="fa-solid fa-magnifying-glass" onclick="myFunction()"></i>
         </div>
+
         <div class="menu_part2">
           <div>
-            <img src="assets/Layer 2.png" />
+            <img src="assets/Layer 2.png" id="logoslash"/>
           </div>
-          <nav>
+          <nav id="cssmenu">
+            <div id="head-mobile"></div>
+            <div class="button"></div>
             <ul>
               <li><a href="#">WHO WE ARE</a></li>
               <li><a href="#">WHAT WE DO</a></li>
@@ -37,8 +40,6 @@
       </div>
     </header>
     <main>
-
-
       <div id="searchwindow">
         <div id="search">
           <div class="a">
@@ -52,7 +53,6 @@
           </div>
         </div>
       </div>
-
 
       <section>
         <div class="intro">
@@ -136,32 +136,70 @@
       <section>
         <h2>Gallery</h2>
         <div class="thing" id="wrapper">
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-  
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-  
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-  
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-  
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-          <div><img src="assets/Clip-1.png"><img src="assets/Clip-1.png"></div>
-       
-          
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
+          <div>
+            <img src="assets/Clip-1.png" /><img src="assets/Clip-1.png" />
+          </div>
         </div>
       </section>
       <section>
@@ -219,45 +257,43 @@
     </footer>
     <script src="js/slick.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $('.thing').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-
+      $(document).ready(function () {
+        $(".thing").slick({
+          dots: true,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ],
         });
-
+      });
     </script>
   </body>
 </html>

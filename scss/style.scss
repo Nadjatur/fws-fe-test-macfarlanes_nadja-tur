@@ -18,14 +18,14 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-   // border-bottom: solid $grey 1px;width: 100%;
+   border-bottom: solid $grey 1px;width: 100%;
     .fa-solid{margin: 3em; }
 }
 
 //mobilni tel
 @media screen and (max-width:767px){
     .menu{
-        
+        height: 10vh;
        border-bottom: solid $grey 1px;width: 100%;
        
     }
@@ -33,9 +33,24 @@ body {
        
         border-bottom: 0 !important;
     }
+
+    .menu_part2 {
+      
+        width: 100% !important; 
+     }
 }
 // tablet
 @media screen and (max-width:991px) and (min-width:768px){
+
+    .menu_part2 {
+      
+        width: 100% !important; 
+     }
+    .menu_part1 {
+      
+       position: absolute;
+    }
+    
     .menu{
         
         border-bottom: solid $grey 1px;width: 100%;
@@ -76,7 +91,7 @@ a:hover{
 .menu_part1 {
     border-right: solid #ABABAB 1px;
     //border-bottom: solid #ABABAB 1px;
-    position: absolute;
+   //position: absolute;
 }
 
 .menu_part2{

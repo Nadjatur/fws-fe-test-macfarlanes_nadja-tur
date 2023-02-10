@@ -185,12 +185,13 @@ nav {
   border-top: 1px solid #333;
 }
 
-.navlist {
-  border-bottom: solid grey 1px !important;
-  position: relative;
-}
-
 @media screen and (max-width: 992px) {
+  .navlist {
+    position: absolute !important;
+    background-color: #FFFFFF;
+    z-index: 3;
+    margin-top: 1.5em;
+  }
   .navlist {
     border-bottom: 0 !important;
   }
@@ -222,10 +223,6 @@ nav {
   }
   nav {
     width: 100%;
-  }
-  #cssmenu {
-    width: 100%;
-    border-top: solid #ABABAB 1px;
   }
   ul {
     width: 100%;
@@ -285,7 +282,7 @@ nav {
     height: 46px;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 1em;
     cursor: pointer;
     z-index: 12399994;
   }
@@ -410,6 +407,8 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
+  border-bottom: solid #ABABAB 1px;
+  width: 100%;
 }
 .menu .fa-solid {
   margin: 3em;
@@ -417,14 +416,24 @@ body {
 
 @media screen and (max-width: 767px) {
   .menu {
+    height: 10vh;
     border-bottom: solid #ABABAB 1px;
     width: 100%;
   }
   .menu_part1 {
     border-bottom: 0 !important;
   }
+  .menu_part2 {
+    width: 100% !important;
+  }
 }
 @media screen and (max-width: 991px) and (min-width: 768px) {
+  .menu_part2 {
+    width: 100% !important;
+  }
+  .menu_part1 {
+    position: absolute;
+  }
   .menu {
     border-bottom: solid #ABABAB 1px;
     width: 100%;
@@ -466,7 +475,6 @@ a:hover {
 
 .menu_part1 {
   border-right: solid #ABABAB 1px;
-  position: absolute;
 }
 
 .menu_part2 {

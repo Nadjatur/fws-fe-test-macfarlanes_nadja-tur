@@ -403,6 +403,11 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  width: 80%;
+  margin: auto;
+}
+
 .thing img {
   width: inherit;
 }
@@ -419,7 +424,7 @@ body {
 }
 
 .intro1 {
-  margin: 4em 6em;
+  margin: 4em 0em;
 }
 
 #logoslash {
@@ -432,6 +437,26 @@ body {
 
 .chg-color {
   margin-right: 0em;
+}
+
+.alignfull {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  max-width: 1000%;
+  width: auto;
+}
+.alignfull img {
+  width: 50rem;
+}
+
+.alignfull2 {
+  margin-left: calc(100% - 35vw);
+  margin-right: calc(100% - 50vw);
+  max-width: 1000%;
+  width: auto;
+}
+.alignfull2 img {
+  width: 50rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -544,7 +569,7 @@ h1 {
 
 .intro2 {
   color: #444444;
-  margin: 4em 6em;
+  margin: 4em 3em;
 }
 .intro2 a {
   color: #C98730;

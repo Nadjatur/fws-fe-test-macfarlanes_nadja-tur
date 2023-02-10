@@ -21,7 +21,10 @@ body {
    border-bottom: solid $grey 1px;width: 100%;
     .fa-solid{margin: 3em; }
 }
-
+.intro1{margin: 4em 6em;}
+#logoslash{margin-top: 1em;}
+.chg-color1{margin: 0;}
+.chg-color{margin-right: 0em;}
 //mobilni tel
 @media screen and (max-width:767px){
     .menu{
@@ -101,15 +104,17 @@ a:hover{
     margin: auto;
     width: 80%;
 }
-.chg-color{color: $dark-grey;}
-    .chg-color1{color: $dark-brown;}
+.chg-color{color: $dark_grey;font-size: 2.6em;}
+    .chg-color1{color: $dark-brown;font-size: 2.6em;}
 h1{writing-mode:vertical-rl;transform: rotate(180deg);
     
 }
 .intro{display: flex;}
 .about{display: inline;
     p{color: $grey;}
-    h2{color:$dark-brown}
+    h2{color:$dark-brown;
+    font-size: 2em;
+padding: 0.5em;}
 }
 .intro1 {
     display: flex;
@@ -120,7 +125,7 @@ h1{writing-mode:vertical-rl;transform: rotate(180deg);
 .intro2{
     color:$dark-brown;
     a{color:$orange;text-decoration: underline;}
-      img{ width: 26em;}
+      img{ width: 33em;}
         margin: 4em  6em;
 }
 h2{margin: 0;}

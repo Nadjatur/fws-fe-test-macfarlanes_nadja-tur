@@ -39,7 +39,10 @@ nav ul li {
 }
 li {
   display: inline;
-  font-family: Lato;
+  font-family: "Lato";
+  font-weight: unset;
+  color: $dark-brown;
+  padding: 0.2em;
 }
 a {
   padding: 2%;
@@ -55,6 +58,8 @@ a {
 }
 a:hover {
   color: $red;
+  font-family: "Lato";
+  font-weight: 700;
 }
 
 .menu_part1 {

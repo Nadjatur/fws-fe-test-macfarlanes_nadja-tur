@@ -14,7 +14,7 @@
 #logoslash {
   margin-top: 1em;
 }
-.chg-color1 {
+.chg-color1 {font-weight: unset;
   margin-right: 0em;
   margin: 0;
   font-family: "Playfair Display";
@@ -72,9 +72,12 @@
   margin: 2%;
   color: $white;
   //margin: auto;
-  h2 {
+  h2 {font-weight: unset;
+    font-family: "Playfair Display";
     font-size: 2.5em;
   }
+p{font-family: "Lato";}
+
 }
 
 //#text_section_main{position: relative;}
@@ -84,18 +87,23 @@
   z-index: 9;
   padding: 4em;
   //margin: auto;
-  h2 {
+  h2 {font-weight: unset;
+    font-family: "Playfair Display";
     color: $orange;
     font-size: 2.5em;
   }
+
+  p{font-family: "Lato";}
 }
 
 .gallery_section {
   margin: auto;
   text-align: center;
   h2 {
+    font-family: "Playfair Display";
+    font-weight: unset;
     padding: 1em;
-    font-size: 2em;
+    font-size: 3em;
   }
 }
 
@@ -109,7 +117,7 @@
 .chg-color {
   color: $dark_grey;
   margin: 0 1em 0 0;
-  text-align: left;
+  text-align: left;font-weight: unset;
   opacity: 30%;
   font-size: 2.6em;
 }
@@ -127,13 +135,14 @@ h1 {
 .about {
   display: inline;
   p {
+    font-family: "Lato";
     color: $grey;
   }
   h2 {
     color: $dark-brown;
     font-size: 2em;
     padding: 0.5em;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display";font-weight: unset;
   }
 }
 .intro1 {
@@ -144,10 +153,20 @@ h1 {
 
 .intro2 {
   color: $dark-brown;
+  font-family: "Playfair Display";
+
   a {
+    padding-left: initial;
     color: $orange;
     text-decoration: underline;
   }
+  a:hover {
+    padding-left: initial;
+    color: $orange;
+    font-family: "Playfair Display" !important;
+    text-decoration: underline;
+  }
+
   img {
     width: 30em;
   }

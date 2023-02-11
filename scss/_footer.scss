@@ -1,9 +1,16 @@
 footer {
   background-color: $light-white;
+  .p_first_footer{font-weight: 700;font-family: "Lato";}
+  .p_section_footer{  display: flex;
+    align-items: center;
+    color: $dark-brown;
+    flex-direction: row;
+    justify-content: center;}
   p {
-    margin: auto;
-    padding: 3em;
-    text-align: center;
+    font-family: "Lato";font-weight: unset;
+   
+    //padding: 3em;
+  
   }
   .footermain {
     display: flex;
@@ -13,8 +20,12 @@ footer {
     .footer_section {
       display: flex;
       flex-direction: column;
+      
       align-items: center;
-
+      h3{font-family: "Playfair Display";font-weight: unset;font-size: 1.5em;color: $dark-brown;}
+      h4{font-family: "Lato";margin: 0.2em;font-weight:unset ;}
+      h4:hover{color: $light-brown;}
+      li:hover{color: $light-brown !important;cursor: pointer;}
       .btn_newsletter {
         display: flex;
         align-items: center;
@@ -24,8 +35,10 @@ footer {
         button {
           margin: 0;
           border: none;
+          font-family: "Lato";font-weight: unset;
           background-color: $light-white;
-        }
+          color:$dark_grey;
+        }::placeholder{font-family: "Lato";font-weight: unset;color:$dark_grey;}
         i {
           margin-right: 0.3em;
         }
@@ -42,6 +55,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .half {

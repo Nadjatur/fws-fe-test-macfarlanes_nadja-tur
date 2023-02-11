@@ -1,4 +1,5 @@
 @charset 'UTF-8';
+
 /* Slider */
 .slick-loading .slick-list
 {
@@ -154,8 +155,7 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 1em;
     padding: 5px;
 
     cursor: pointer;
@@ -163,11 +163,12 @@
     color: transparent;
     border: 0;
     outline: none;
-    background: transparent;
+    background: #444444 ;
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
 {
+    background: #C98730 ;
     outline: none;
 }
 .slick-dots li button:hover:before,

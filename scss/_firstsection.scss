@@ -239,3 +239,32 @@ select:focus {
   //top: 29%;
   //top:15%;
 }
+
+@media screen and (max-width: 767px) {
+  .chg-color1,.chg-color{writing-mode: horizontal-tb; transform: rotate(0deg) ;}
+ 
+.intro{flex-direction: column;}
+  .box {
+	  display:contents;
+	}
+	.n {
+	  order:4;
+	}
+	.d {
+	  order:3;
+	}
+	
+	.b {
+	  order: 2
+	}
+	.c {
+		order: 1
+	  }
+
+
+    .about h2 {
+      display: none;
+  }
+  }
+
+

@@ -403,6 +403,14 @@ body {
   overflow-x: hidden;
 }
 
+.txt_first {
+  width: 65%;
+  margin: auto;
+  float: right;
+  position: unset;
+  margin-top: 3%;
+}
+
 main {
   width: 80%;
   margin: auto;
@@ -444,19 +452,65 @@ main {
   margin-right: calc(50% - 50vw);
   max-width: 1000%;
   width: auto;
+  z-index: -1;
 }
 .alignfull img {
   width: 50rem;
+  position: absolute;
+  z-index: -1;
 }
 
 .alignfull2 {
-  margin-left: calc(100% - 35vw);
-  margin-right: calc(100% - 50vw);
+  margin-left: calc(113% - 50vw);
+  margin-top: calc(105% - 50.5vw);
   max-width: 1000%;
-  width: auto;
+  height: 20vh;
+  z-index: -1;
 }
 .alignfull2 img {
   width: 50rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.txt_first2 {
+  width: 80%;
+  margin: auto;
+  float: left;
+  position: unset;
+  margin-top: 3%;
+}
+
+.text_section2 {
+  background-color: #444444;
+  z-index: 9;
+  padding: 4em;
+  width: 50%;
+  margin-top: -2%;
+  margin: 2%;
+  color: #FFFFFF;
+}
+.text_section2 h2 {
+  font-size: 2.5em;
+}
+
+.text_section {
+  background-color: #F5F2EE;
+  z-index: 9;
+  padding: 4em;
+}
+.text_section h2 {
+  color: #C98730;
+  font-size: 2.5em;
+}
+
+.gallery_section {
+  margin: auto;
+  text-align: center;
+}
+.gallery_section h2 {
+  padding: 1em;
+  font-size: 2em;
 }
 
 @media screen and (max-width: 767px) {
@@ -519,7 +573,7 @@ a:hover {
 }
 
 .menu_part1 {
-  border-right: solid #ABABAB 1px;
+  border-right: solid #ababab 1px;
 }
 
 .menu_part2 {
@@ -569,7 +623,7 @@ h1 {
 
 .intro2 {
   color: #444444;
-  margin: 4em 3em;
+  margin: 4em 0 4em 3em;
 }
 .intro2 a {
   color: #C98730;
@@ -609,7 +663,9 @@ h2 {
   border: none;
 }
 
-input:focus, textarea:focus, select:focus {
+input:focus,
+textarea:focus,
+select:focus {
   outline: none;
 }
 
@@ -660,7 +716,8 @@ footer .footermain .footer_section .btn_newsletter {
   border: solid #707070 1px;
   padding: 1em;
 }
-footer .footermain .footer_section .btn_newsletter input, footer .footermain .footer_section .btn_newsletter button {
+footer .footermain .footer_section .btn_newsletter input,
+footer .footermain .footer_section .btn_newsletter button {
   margin: 0;
   border: none;
   background-color: #F5F2EE;

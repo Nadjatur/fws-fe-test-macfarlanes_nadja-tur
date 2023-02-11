@@ -484,6 +484,10 @@ input[type=checkbox]:checked {
   background-color: pink;
 }
 
+input[type=checkbox] {
+  accent-color: #c98730;
+}
+
 .proba {
   width: 50%;
 }

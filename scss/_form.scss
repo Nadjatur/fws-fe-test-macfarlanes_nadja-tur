@@ -65,7 +65,9 @@
 input[type="checkbox"]:checked {
   background-color: pink;
 }
-
+input[type=checkbox] {
+  accent-color: $orange;
+}
 .proba {
   width: 50%;
 }

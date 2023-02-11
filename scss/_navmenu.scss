@@ -1,0 +1,64 @@
+
+//mobilni tel
+@media screen and (max-width: 767px) {
+    .menu {
+      height: 10vh;
+      border-bottom: solid $grey 1px;
+      width: 100%;
+    }
+    .menu_part1 {
+      border-bottom: 0 !important;
+    }
+  
+    .menu_part2 {
+      width: 100% !important;
+    }
+  }
+  // tablet
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    .menu_part2 {
+      width: 100% !important;
+    }
+    .menu_part1 {
+      position: absolute;
+    }
+  
+    .menu {
+      border-bottom: solid $grey 1px;
+      width: 100%;
+    }
+    .menu_part1 {
+      border-bottom: 0 !important;
+    }
+  }
+  nav {
+    width: inherit;
+  }
+  nav ul li {
+    padding: 0 10px 0 10px;
+  }
+  li {
+    display: inline;
+    font-family: Lato;
+  }
+  a {
+    padding: 2%;
+    text-decoration: none;
+    color: $dark-brown;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1.28px;
+    opacity: 1;
+  }
+  .navlist {
+    border-bottom: solid grey 1px;
+  }
+  a:hover {
+    color: $red;
+  }
+  
+  .menu_part1 {
+    border-right: solid #ababab 1px;
+    //border-bottom: solid #ABABAB 1px;
+    //position: absolute;
+  }

@@ -651,9 +651,19 @@ h2 {
   color: #FFFFFF;
   height: 90vh;
 }
+#searchwindow ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FFFFFF;
+  font-family: "Playfair Display";
+  opacity: 1; /* Firefox */
+}
 
 .a {
+  font-family: "Playfair Display";
   border-bottom: solid #FFFFFF 1px;
+  width: 50%;
+}
+.a i {
+  font-size: large;
 }
 
 .proba {
@@ -685,7 +695,9 @@ select:focus {
 }
 
 #input_search {
-  padding: 0;
+  padding: 1em;
+  font-size: 1.5em;
+  width: 80%;
   border: none;
   color: #FFFFFF;
   background-color: #1A1A1A;
@@ -718,12 +730,6 @@ select:focus {
   color: #ABABAB;
   width: 25%;
 }
-.form_section form textarea, .form_section form input[type=text], .form_section form input[type=email] {
-  width: 25%;
-  padding: 1em;
-  margin-top: 2em;
-  border: solid #707070 1px;
-}
 .form_section form button {
   background-color: #C98730;
   border: none;
@@ -733,10 +739,30 @@ select:focus {
 }
 .form_section form label {
   color: #ABABAB;
+  margin: 1em 0;
+}
+.form_section form label input[type=checkbox] {
+  width: 2em;
 }
 
 input[type=checkbox]:checked {
   background-color: pink;
+}
+
+.input_form {
+  border: solid #707070 1px;
+  display: flex;
+  padding: 2em;
+  width: 30%;
+  margin-top: 2em;
+}
+.input_form textarea, .input_form input[type=text], .input_form input[type=email] {
+  border: none;
+  width: 80%;
+  margin-left: 1em;
+}
+.input_form textarea {
+  resize: none;
 }
 
 footer {

@@ -260,14 +260,21 @@ h2 {
 
 #searchwindow {
   width: 400px;
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $white;
+    font-family: "Playfair Display";
+    opacity: 1; /* Firefox */
+  }
   display: none;
   width: 100%;
   background-color: $black;
   color: $white;
   height: 90vh;
 }
-.a {
+.a {font-family: "Playfair Display";
   border-bottom: solid $white 1px;
+  width: 50%;i{font-size: large;}
 }
 .proba{width: 50%;}
 .half{ display: inline-block;
@@ -292,7 +299,10 @@ select:focus {
   outline: none;
 }
 #input_search {
-  padding: 0;
+  
+  padding: 1em;
+  font-size: 1.5em;
+  width: 80%;
   border: none;
   color: $white;
   background-color: $black;
@@ -319,14 +329,22 @@ img{
     align-items: flex-start;
     h2{color: $dark-brown;}
     p{color: $grey;width: 25%;}
-    textarea,input[type=text],input[type=email]{width: 25%;padding: 1em;margin-top: 2em;border: solid $dark_grey 1px;}
+    //textarea,input[type=email]{width: 25%;padding: 1em;margin-top: 2em;border: solid $dark_grey 1px;}
     button{background-color: $orange;border: none;color: white;padding: 1.5em;width: 15%;}
-    label{color: $grey; }
+    label{color: $grey; margin: 1em 0;
+      input[type=checkbox]{width: 2em;}
+    }
     
   }
 }
 input[type=checkbox]:checked  {
   background-color: pink;
+}
+
+.input_form{border:solid $dark_grey 1px;display: flex;    padding: 2em;width: 30%;
+  margin-top: 2em;
+  textarea,input[type=text],input[type=email]{border: none;width: 80%;margin-left: 1em;}
+  textarea{resize: none;}
 }
 footer {
   background-color: $light-white;

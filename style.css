@@ -1,8 +1,10 @@
-#wrapper{
-    width: 90%;
-    height: 80vh;
-    margin: 0 auto;
+#wrapper {
+  width: 90%;
+  height: 80vh;
+  margin: 0 auto;
 }
 
-img{width: 55%;padding:1em}
-
+img {
+  width: 55%;
+  padding: 1em;
+}

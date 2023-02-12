@@ -182,8 +182,8 @@ a:hover {
   text-align: center;
 }
 .gallery_section h2 {
-  font-family: "Playfair Display";
   font-weight: unset;
+  font-family: "Playfair Display";
   padding: 1em;
   font-size: 3em;
 }
@@ -230,8 +230,8 @@ h1 {
   color: #444444;
   font-size: 2em;
   padding: 0.5em;
-  font-family: "Playfair Display";
   font-weight: unset;
+  font-family: "Playfair Display";
 }
 
 .intro1 {
@@ -523,6 +523,7 @@ select:focus {
     display: none;
   }
   .intro {
+    display: flex;
     flex-direction: column;
   }
   .intro .p_other {
@@ -604,9 +605,9 @@ footer .p_first_footer {
 }
 footer .p_section_footer {
   display: flex;
+  flex-direction: row;
   align-items: center;
   color: #444444;
-  flex-direction: row;
   justify-content: center;
 }
 footer p {
@@ -625,8 +626,8 @@ footer .footermain .footer_section {
   align-items: center;
 }
 footer .footermain .footer_section h3 {
-  font-family: "Playfair Display";
   font-weight: unset;
+  font-family: "Playfair Display";
   font-size: 1.5em;
   color: #444444;
 }
@@ -746,8 +747,8 @@ footer .footermain .footer_section:nth-child(-n+2) {
 }
 .form_section form h2 {
   color: #444444;
-  font-family: "Playfair Display";
   font-weight: unset;
+  font-family: "Playfair Display";
   font-size: 3em;
 }
 .form_section form p {
@@ -762,8 +763,8 @@ footer .footermain .footer_section:nth-child(-n+2) {
   color: white;
   padding: 1.5em;
   width: 15%;
-  font-family: "Playfair Display";
   font-weight: unset;
+  font-family: "Playfair Display";
   font-size: 1em;
 }
 .form_section form button:hover {

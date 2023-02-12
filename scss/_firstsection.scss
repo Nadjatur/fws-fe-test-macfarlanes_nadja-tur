@@ -1,6 +1,7 @@
+@import "mixins";
+
 .menu {
-  display: flex;
-  flex-direction: row;
+  @include row;
   width: 100%;
   border-bottom: solid $grey 1px;
   width: 100%;
@@ -71,8 +72,7 @@
   color: $white;
 
   h2 {
-    font-weight: unset;
-    font-family: "Playfair Display";
+    @include pd_regular;
     font-size: 2.5em;
   }
   p {
@@ -87,8 +87,7 @@
   padding: 4em;
 
   h2 {
-    font-weight: unset;
-    font-family: "Playfair Display";
+    @include pd_regular;
     color: $orange;
     font-size: 2.5em;
   }
@@ -102,16 +101,14 @@
   margin: auto;
   text-align: center;
   h2 {
-    font-family: "Playfair Display";
-    font-weight: unset;
+    @include pd_regular;
     padding: 1em;
     font-size: 3em;
   }
 }
 
 .menu_part2 {
-  display: flex;
-  flex-direction: column;
+  @include column;
   align-items: center;
   margin: auto;
   width: 80%;
@@ -145,13 +142,11 @@ h1 {
     color: $dark-brown;
     font-size: 2em;
     padding: 0.5em;
-    font-family: "Playfair Display";
-    font-weight: unset;
+    @include pd_regular;
   }
 }
 .intro1 {
-  display: flex;
-  flex-direction: row;
+  @include row;
   align-items: flex-start;
 }
 
@@ -478,7 +473,7 @@ select:focus {
     display: none;
   }
   .intro {
-    flex-direction: column;
+    @include column;
     .p_other {
       display: none;
     }

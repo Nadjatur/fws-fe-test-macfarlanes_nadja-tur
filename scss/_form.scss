@@ -1,3 +1,5 @@
+@import "mixins";
+
 .input_form {
   border: solid $dark_grey 1px;
   display: flex;
@@ -27,18 +29,15 @@
 
 .form_section {
   width: 100%;
-  display: flex;
-  flex-direction: row;
+  @include row;
   align-items: flex-start;
   form {
     width: max-content;
-    display: flex;
-    flex-direction: column;
+    @include column;
     align-items: flex-start;
     h2 {
       color: $dark-brown;
-      font-family: "Playfair Display";
-      font-weight: unset;
+      @include pd_regular;
       font-size: 3em;
     }
     p {
@@ -54,8 +53,7 @@
       color: white;
       padding: 1.5em;
       width: 15%;
-      font-family: "Playfair Display";
-      font-weight: unset;
+      @include pd_regular;
       font-size: 1em;
     }
     button:hover {
@@ -226,7 +224,7 @@ input[type="checkbox"] {
   }
 
   .input_form {
-    border: solid #707070 1px;
+    border: solid $dark_grey 1px;
     display: flex;
     padding: 0.5em;
     width: 100%;

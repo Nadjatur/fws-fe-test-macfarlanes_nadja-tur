@@ -339,6 +339,53 @@ select:focus {
     width: 80% !important;
   }
 }
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .text_section {
+    padding: 2em;
+  }
+  .text_section h2 {
+    font-size: 1.5em;
+  }
+  .text_section p {
+    font-size: 0.9em;
+  }
+  .text_section2 {
+    padding: 2em;
+  }
+  .text_section2 h2 {
+    font-size: 1.5em;
+  }
+  .text_section2 p {
+    font-size: 0.9em;
+  }
+  .chg-color1 {
+    font-size: 2.1em;
+  }
+  .alignfull img {
+    width: 30rem;
+  }
+  .alignfull2 {
+    height: 6vh;
+  }
+  .alignfull2 img {
+    width: 32rem;
+  }
+  .chg-color {
+    font-size: 2.1em;
+  }
+  .intro2 {
+    margin: 4em 0 4em 3em;
+  }
+  .intro2 img {
+    width: 22em;
+  }
+  .n h2 {
+    font-size: 1em;
+  }
+  .n p {
+    font-size: 0.6em;
+  }
+}
 @media screen and (max-width: 991px) {
   .a {
     width: 80%;
@@ -632,6 +679,43 @@ input[type=checkbox] {
   padding: 0em 0 4em 1em;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .containerr {
+    font-size: 0.6em;
+  }
+  .input_form {
+    padding: 0.2em !important;
+    margin-top: 1em;
+  }
+  textarea,
+input[type=text],
+input[type=email] {
+    font-size: 1em;
+  }
+  ::placeholder {
+    font-size: 0.6em !important;
+  }
+  .form_section {
+    padding-top: 4em;
+  }
+  .form_section form h2 {
+    font-size: 2em;
+  }
+  .form_section form p {
+    font-size: 0.8em;
+  }
+  .form_section form button {
+    padding: 0.5em;
+    width: 14%;
+  }
+  .ad img {
+    width: 30em;
+  }
+  .input_form {
+    width: 16%;
+    padding: 1em;
+  }
+}
 @media screen and (max-width: 991px) {
   .form_section {
     width: 100%;
@@ -871,6 +955,14 @@ nav {
   border-top: 1px solid #333;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .button {
+    right: 7em !important;
+  }
+  .navlist {
+    margin-top: 6.5em !important;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .navlist {
     margin-top: 5.5em !important;

@@ -185,6 +185,7 @@ a:hover {
   font-weight: unset;
   font-family: "Playfair Display";
   padding: 1em;
+  color: #444444;
   font-size: 3em;
 }
 
@@ -979,7 +980,7 @@ nav {
 }
 
 #cssmenu > ul > li > a {
-  padding: 2em;
+  padding: 2em 2em 0 2em;
   font-size: 0.9em;
   letter-spacing: 1px;
   text-decoration: none;
@@ -1129,7 +1130,7 @@ nav {
     right: 7em !important;
   }
   .navlist {
-    margin-top: 6.5em !important;
+    margin-top: 0.5em !important;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {

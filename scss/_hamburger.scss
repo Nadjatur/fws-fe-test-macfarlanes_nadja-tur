@@ -51,7 +51,7 @@ nav {
   float: left;
 }
 #cssmenu > ul > li > a {
-  padding: 2em;
+  padding: 2em 2em 0 2em;
   font-size: 0.9em;
   letter-spacing: 1px;
   text-decoration: none;
@@ -176,14 +176,14 @@ nav {
 #cssmenu > ul ul > li.has-sub > ul > li.active > a {
   border-top: 1px solid #333;
 }
-//.navlist{border-bottom: solid grey 1px !important; position: relative;}
+
 
 @media screen and (min-width: 992px) and (max-width: 1024px) {
   .button {
     right: 7em !important;
   }
   .navlist {
-    margin-top: 6.5em !important;
+    margin-top: 0.5em !important;
   }
 }
 

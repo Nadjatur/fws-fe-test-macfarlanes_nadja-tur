@@ -103,6 +103,7 @@
   h2 {
     @include pd_regular;
     padding: 1em;
+    color: $dark-brown;
     font-size: 3em;
   }
 }

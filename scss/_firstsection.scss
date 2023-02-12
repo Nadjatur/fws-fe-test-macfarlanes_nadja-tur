@@ -383,7 +383,77 @@ select:focus {
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1580px) {
+
   
+  .txt_first {
+    width: 71%;}
+  
+  .d{
+    p{
+      font-size: 1.3em;
+    }
+  }
+  .gallery_section {
+    margin-top: 5em;
+   
+}
+
+  .text_section2 {
+   
+    width: 56%;}
+
+  .text_section{
+    padding: 2em;
+  h2{
+    font-size: 1.5em;
+} p{font-size: 0.9em;}
+
+  }
+
+  .text_section2{
+    padding: 2em;
+  h2{
+    font-size: 1.5em;
+} p{font-size: 0.9em;}
+
+  }
+  
+  .chg-color1 {
+    font-size: 2.1em ;
+  }
+  .alignfull  {
+    
+    img{
+    width: 41rem;
+  }}
+
+  .alignfull2  {
+    margin-left: 33.2em;
+    margin-top: 27em;;
+    height: 8vh;
+    img{
+    width: 42rem;
+    height: 23rem;
+  }}
+
+  .chg-color {
+    font-size: 2.1em ;
+  }
+  .intro2 {
+    margin: 4em 0 4em 2em;
+    img {
+      width: 27em;
+    }
+  }
+  .n {
+    h2 {
+      font-size: 1.7em;
+    }
+
+    p {
+      font-size: 0.9em;
+    }
+  }
 }
 
 @media screen and (max-width: 991px) {

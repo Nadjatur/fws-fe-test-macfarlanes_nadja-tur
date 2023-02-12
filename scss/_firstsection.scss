@@ -158,13 +158,13 @@ h1 {
   a {
     padding-left: initial;
     color: $orange;
-    text-decoration: underline;
+    border-bottom: solid $orange 1px;text-decoration: none;
   }
   a:hover {
     padding-left: initial;
     color: $orange;
     font-family: "Playfair Display" !important;
-    text-decoration: underline;
+    
   }
 
   img {
@@ -240,10 +240,16 @@ select:focus {
   //top:15%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
+  .a{width: 80%;}
+  #input_search{width: 67%;}
+  #search{width: 100%;}
   .chg-color1,.chg-color{writing-mode: horizontal-tb; transform: rotate(0deg) ;}
- 
-.intro{flex-direction: column;}
+ #text_section_main2{display: none;}
+.intro{flex-direction: column;
+  .p_other{display: none;}
+a{border-bottom: solid $orange 1px;text-decoration: none;}
+}
   .box {
 	  display:contents;
 	}
@@ -252,6 +258,7 @@ select:focus {
 	}
 	.d {
 	  order:3;
+    p{font-size: 1.1em;}
 	}
 	
 	.b {
@@ -265,6 +272,59 @@ select:focus {
     .about h2 {
       display: none;
   }
+
+  .intro2 img {
+    width: 100%;
+}
+
+.menu  {.fa-solid{
+  margin: 2em 1.5em;
+}}
+
+.chg-color1 {
+
+  padding: 0.4em 0;
+  font-size: 1.9em;
+}
+
+.chg-color {
+
+  padding-top: 0.3em;
+  font-size: 1.9em;
+}
+
+.menu_part1{font-size: medium;}
+.alignfull{    width: 100% !important;
+  margin: 0;
+  img{width: inherit;
+  position: unset;
+}
+}
+.gallery_section {
+ display: none;
+}
+
+.txt_first {
+  width: 100%;
+  margin: 0;
+  float: unset;
+  position: unset;
+  margin-top: 3%;
+  .text_section {
+    
+    padding: 0;
+
+    h2{
+      font-size: 1.5em;
+    }
+
+    p{
+      //font-size: 1em;
+    }
+
+}
+}
+
   }
 
 

@@ -68,3 +68,11 @@ a:hover {
   //border-bottom: solid #ABABAB 1px;
   //position: absolute;
 }
+
+@media screen and (max-width: 991px) {
+  a{font-weight: unset !important;}
+a:hover {
+  color: $dark-brown;
+  font-family: "Lato";
+  font-weight: 700 !important;
+}}

@@ -69,6 +69,16 @@ a:hover {
   font-size: larger;
 }
 
+@media screen and (max-width: 991px) {
+  a {
+    font-weight: unset !important;
+  }
+  a:hover {
+    color: #444444;
+    font-family: "Lato";
+    font-weight: 700 !important;
+  }
+}
 .thing img {
   width: inherit;
 }
@@ -324,6 +334,9 @@ select:focus {
   }
   .menu_part1 {
     position: unset;
+  }
+  #input_search {
+    width: 80% !important;
   }
 }
 @media screen and (max-width: 991px) {

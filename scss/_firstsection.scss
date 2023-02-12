@@ -254,6 +254,9 @@ select:focus {
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .menu_part2{height: 11vh;}
   .menu_part1{position: unset;}
+  #input_search {
+    width: 80% !important;
+}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1024px) {

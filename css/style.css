@@ -854,9 +854,8 @@ nav {
     position: absolute !important;
     background-color: #ffffff;
     z-index: 3;
-    margin-top: 1.5em;
-  }
-  .navlist {
+    margin-top: 4.5em;
+    height: 100vh;
     border-bottom: 0 !important;
   }
   #cssmenu,

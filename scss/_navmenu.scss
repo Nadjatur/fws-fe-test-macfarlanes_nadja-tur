@@ -1,4 +1,3 @@
-//mobilni tel
 @media screen and (max-width: 767px) {
   .menu {
     height: 10vh;
@@ -14,7 +13,6 @@
   }
 }
 
-// tablet
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .menu_part2 {
     width: 100% !important;
@@ -65,19 +63,15 @@ a:hover {
 .menu_part1 {
   border-right: solid #ababab 1px;
   font-size: larger;
-  //border-bottom: solid #ABABAB 1px;
-  //position: absolute;
 }
 
-
-
-
-
-
 @media screen and (max-width: 991px) {
-  a{font-weight: unset !important;}
-a:hover {
-  color: $dark-brown;
-  font-family: "Lato";
-  font-weight: 700 !important;
-}}
+  a {
+    font-weight: unset !important;
+  }
+  a:hover {
+    color: $dark-brown;
+    font-family: "Lato";
+    font-weight: 700 !important;
+  }
+}

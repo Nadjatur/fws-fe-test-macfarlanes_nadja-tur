@@ -39,15 +39,14 @@
 .alignfull2 {
   margin-left: calc(113% - 50vw);
   margin-top: calc(105% - 50.5vw);
-  //margin-right: calc(100% - 50vw);
+
   max-width: 1000%;
-  //width: auto;
+
   height: 20vh;
   z-index: -1;
 
   img {
     width: 50rem;
-    //OBAVEZNO VRATITI ZA PREKO!
     position: absolute;
     z-index: -1;
   }
@@ -59,20 +58,18 @@
   float: left;
   position: unset;
   margin-top: 3%;
-  //top: 29%;
-  //top:15%;
 }
 
 .text_section2 {
   background-color: $dark-brown;
-  //width: 100%;
+
   z-index: 9;
   padding: 4em;
   width: 50%;
   margin-top: -2%;
   margin: 2%;
   color: $white;
-  //margin: auto;
+
   h2 {
     font-weight: unset;
     font-family: "Playfair Display";
@@ -83,13 +80,12 @@
   }
 }
 
-//#text_section_main{position: relative;}
 .text_section {
   background-color: $light-white;
-  //width: 100%;
+
   z-index: 9;
   padding: 4em;
-  //margin: auto;
+
   h2 {
     font-weight: unset;
     font-family: "Playfair Display";
@@ -188,10 +184,9 @@ h2 {
   width: 400px;
 
   ::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: $white;
     font-family: "Playfair Display";
-    opacity: 1; /* Firefox */
+    opacity: 1;
   }
   display: none;
   width: 100%;
@@ -213,7 +208,7 @@ h2 {
   align-items: center;
   width: 100%;
   height: 100%;
-  /* flex-direction: row; */
+
   justify-content: center;
   button {
     background-color: $black;
@@ -244,8 +239,6 @@ select:focus {
   float: right;
   position: unset;
   margin-top: 3%;
-  //top: 29%;
-  //top:15%;
 }
 
 @media screen and (max-width: 767px) {
@@ -264,42 +257,46 @@ select:focus {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1024px) {
- 
-  .text_section{
+  .text_section {
     padding: 2em;
-  h2{
-    font-size: 1.5em;
-} p{font-size: 0.9em;}
-
+    h2 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 0.9em;
+    }
   }
 
-  .text_section2{
+  .text_section2 {
     padding: 2em;
-  h2{
-    font-size: 1.5em;
-} p{font-size: 0.9em;}
-
+    h2 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 0.9em;
+    }
   }
-  
+
   .chg-color1 {
-    font-size: 2.1em ;
+    font-size: 2.1em;
   }
-  .alignfull  {
-    
-    img{
-    width: 30rem;
-  }}
+  .alignfull {
+    img {
+      width: 30rem;
+    }
+  }
 
-  .alignfull2  {
+  .alignfull2 {
     margin-top: 20em;
     margin-left: 24em;
     height: 6vh;
-    img{
-    width: 32rem;
-  }}
+    img {
+      width: 32rem;
+    }
+  }
 
   .chg-color {
-    font-size: 2.1em ;
+    font-size: 2.1em;
   }
   .intro2 {
     margin: 4em 0 4em 3em;
@@ -318,52 +315,55 @@ select:focus {
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-
   .gallery_section {
     margin-top: 5em;
-   
-}
+  }
 
   .text_section2 {
-   
-    width: 65%;}
-
-  .text_section{
-    padding: 2em;
-  h2{
-    font-size: 1.5em;
-} p{font-size: 0.9em;}
-
+    width: 65%;
   }
 
-  .text_section2{
+  .text_section {
     padding: 2em;
-  h2{
-    font-size: 1.5em;
-} p{font-size: 0.9em;}
-
+    h2 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 0.9em;
+    }
   }
-  
+
+  .text_section2 {
+    padding: 2em;
+    h2 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 0.9em;
+    }
+  }
+
   .chg-color1 {
-    font-size: 2.1em ;
+    font-size: 2.1em;
   }
-  .alignfull  {
-    
-    img{
-    width: 37rem;
-  }}
+  .alignfull {
+    img {
+      width: 37rem;
+    }
+  }
 
-  .alignfull2  {
+  .alignfull2 {
     margin-left: 30em;
-    margin-top: 24em;;
+    margin-top: 24em;
     height: 8vh;
-    img{
-    width: 42rem;
-    height: 23rem;
-  }}
+    img {
+      width: 42rem;
+      height: 23rem;
+    }
+  }
 
   .chg-color {
-    font-size: 2.1em ;
+    font-size: 2.1em;
   }
   .intro2 {
     margin: 4em 0 4em 3em;
@@ -383,61 +383,64 @@ select:focus {
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1580px) {
-
-  
   .txt_first {
-    width: 71%;}
-  
-  .d{
-    p{
+    width: 71%;
+  }
+
+  .d {
+    p {
       font-size: 1.3em;
     }
   }
   .gallery_section {
     margin-top: 5em;
-   
-}
+  }
 
   .text_section2 {
-   
-    width: 56%;}
-
-  .text_section{
-    padding: 2em;
-  h2{
-    font-size: 1.5em;
-} p{font-size: 0.9em;}
-
+    width: 56%;
   }
 
-  .text_section2{
+  .text_section {
     padding: 2em;
-  h2{
-    font-size: 1.5em;
-} p{font-size: 0.9em;}
-
+    h2 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 0.9em;
+    }
   }
-  
+
+  .text_section2 {
+    padding: 2em;
+    h2 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 0.9em;
+    }
+  }
+
   .chg-color1 {
-    font-size: 2.1em ;
+    font-size: 2.1em;
   }
-  .alignfull  {
-    
-    img{
-    width: 41rem;
-  }}
+  .alignfull {
+    img {
+      width: 41rem;
+    }
+  }
 
-  .alignfull2  {
+  .alignfull2 {
     margin-left: 33.2em;
-    margin-top: 27em;;
+    margin-top: 27em;
     height: 8vh;
-    img{
-    width: 42rem;
-    height: 23rem;
-  }}
+    img {
+      width: 42rem;
+      height: 23rem;
+    }
+  }
 
   .chg-color {
-    font-size: 2.1em ;
+    font-size: 2.1em;
   }
   .intro2 {
     margin: 4em 0 4em 2em;
@@ -554,10 +557,6 @@ select:focus {
 
       h2 {
         font-size: 1.5em;
-      }
-
-      p {
-        //font-size: 1em;
       }
     }
   }

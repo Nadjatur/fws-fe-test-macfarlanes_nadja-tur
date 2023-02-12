@@ -179,17 +179,17 @@ nav {
 //.navlist{border-bottom: solid grey 1px !important; position: relative;}
 
 @media screen and (min-width: 992px) and (max-width: 1024px) {
-  .button{
+  .button {
     right: 7em !important;
   }
-  .navlist{
+  .navlist {
     margin-top: 6.5em !important;
   }
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .navlist{margin-top: 5.5em !important;
+  .navlist {
+    margin-top: 5.5em !important;
   }
 }
 @media screen and (max-width: 992px) {
@@ -201,7 +201,7 @@ nav {
     height: 100vh;
     border-bottom: 0 !important;
   }
- 
+
   #cssmenu,
   #cssmenu ul,
   #cssmenu ul li,
@@ -236,8 +236,6 @@ nav {
     width: 100%;
   }
   #cssmenu {
-    //width:20em;
-    // border-top: solid $grey 1px;
   }
   ul {
     width: 100%;
@@ -257,7 +255,7 @@ nav {
     width: 100%;
     border-bottom: 0;
   }
-  //> ul > li{float:none}
+
   ul ul li a {
     padding-left: 25px;
   }

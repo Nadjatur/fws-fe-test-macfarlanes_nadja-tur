@@ -318,6 +318,14 @@ select:focus {
   margin-top: 3%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .menu_part2 {
+    height: 11vh;
+  }
+  .menu_part1 {
+    position: unset;
+  }
+}
 @media screen and (max-width: 991px) {
   .a {
     width: 80%;
@@ -328,7 +336,8 @@ select:focus {
   #search {
     width: 100%;
   }
-  .chg-color1, .chg-color {
+  .chg-color1,
+.chg-color {
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
   }
@@ -849,6 +858,11 @@ nav {
   border-top: 1px solid #333;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navlist {
+    margin-top: 5.5em !important;
+  }
+}
 @media screen and (max-width: 992px) {
   .navlist {
     position: absolute !important;

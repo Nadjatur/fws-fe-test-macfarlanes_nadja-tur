@@ -177,6 +177,10 @@ nav {
   border-top: 1px solid #333;
 }
 //.navlist{border-bottom: solid grey 1px !important; position: relative;}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navlist{margin-top: 5.5em !important;
+  }
+}
 @media screen and (max-width: 992px) {
   .navlist {
     position: absolute !important;
